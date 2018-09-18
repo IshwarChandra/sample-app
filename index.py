@@ -4,7 +4,7 @@ import datetime
 
 def handler(event, context):
     data = {
-        'output': 'PR 4',
+        'output': 'PR 5',
         'timestamp': datetime.datetime.utcnow().isoformat()
     }
     return {'statusCode': 200,
